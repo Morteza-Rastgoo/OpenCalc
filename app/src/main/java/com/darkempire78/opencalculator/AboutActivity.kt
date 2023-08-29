@@ -40,19 +40,19 @@ class AboutActivity : AppCompatActivity() {
         }
 
         // Translate
-        binding.aboutTranslate.setOnClickListener {
-            val browserIntent = Intent(
-                Intent.ACTION_VIEW,
-                Uri.parse("https://hosted.weblate.org/engage/opencalc/")
-            )
-            startActivity(browserIntent)
-        }
+//        binding.aboutTranslate.setOnClickListener {
+//            val browserIntent = Intent(
+//                Intent.ACTION_VIEW,
+//                Uri.parse("https://hosted.weblate.org/engage/opencalc/")
+//            )
+//            startActivity(browserIntent)
+//        }
 
         // Rate
         binding.aboutRate.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://play.google.com/store/apps/details?id=com.darkempire78.opencalculator")
+                Uri.parse("https://play.google.com/store/apps/details?id=com.khosousi.calculator")
             )
             startActivity(browserIntent)
         }
@@ -61,7 +61,7 @@ class AboutActivity : AppCompatActivity() {
         binding.aboutDonate.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://www.paypal.me/ImDarkempire")
+                Uri.parse("https://paypal.me/mrastgoo")
             )
             startActivity(browserIntent)
         }
@@ -70,19 +70,19 @@ class AboutActivity : AppCompatActivity() {
         binding.aboutGithub.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://github.com/Darkempire78/OpenCalc")
+                Uri.parse("https://github.com/Morteza-Rastgoo/OpenCalc")
             )
             startActivity(browserIntent)
         }
 
         // Discord
-        binding.aboutDiscord.setOnClickListener {
-            val browserIntent = Intent(
-                Intent.ACTION_VIEW,
-                Uri.parse("https://discord.com/invite/sPvJmY7mcV")
-            )
-            startActivity(browserIntent)
-        }
+//        binding.aboutDiscord.setOnClickListener {
+//            val browserIntent = Intent(
+//                Intent.ACTION_VIEW,
+//                Uri.parse("https://discord.com/invite/sPvJmY7mcV")
+//            )
+//            startActivity(browserIntent)
+//        }
 
         binding.aboutPrivacyPolicy.setOnClickListener {
             val browserIntent = Intent(
